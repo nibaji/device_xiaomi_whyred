@@ -276,6 +276,7 @@ ifeq ($(HOST_OS),linux)
       WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
   endif
 endif
+PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
 
 # inherit from the proprietary version
 -include vendor/xiaomi/whyred/BoardConfigVendor.mk
