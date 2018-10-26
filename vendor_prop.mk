@@ -191,10 +191,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sensors.sta_detect=true \
     ro.vendor.sensors.mot_detect=true
 
-#Expose aux camera for below packages
+# Add Google Camera to AUX camera package blacklist
 PRODUCT_PROPERTY_OVERRIDES += \
-    camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi \
-    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi
+    vendor.camera.aux.packageblacklist=com.google.android.GoogleCamera,com.google.android.Pixel3Mod
+
+# Enable HAL3 by default and add a few apps that break with it to HAL1 package list
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.HAL3.enabled=1 \
+    camera.hal1.packagelist=com.whatsapp,com.facebook.katana,com.instagram.android,com.snapchat.android
 
 # Boot
 PRODUCT_PROPERTY_OVERRIDES += \
