@@ -65,5 +65,8 @@
         <item>-105</item>
         <item>-44</item>
     </integer-array>
+
+    <!-- Whether to show VoLTE icon in the status bar -->
+    <bool name="config_display_volte">true</bool>
 </resources>
 
