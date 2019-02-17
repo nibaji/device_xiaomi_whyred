@@ -24,6 +24,7 @@ $(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
 # Inherit some common Derp-CAF stuff.
+TARGET_BOOT_ANIMATION_RES := 2160
 $(call inherit-product, vendor/derp/config/derp.mk)
 
 PRODUCT_NAME := derp_whyred
@@ -42,3 +43,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V10.2.2.0.OEICNFK:user/release-keys
 
 TARGET_VENDOR := Xiaomi
+
+DERP_BUILD_TYPE := nibaji
