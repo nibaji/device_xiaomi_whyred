@@ -1,12 +1,12 @@
-Copyright (C) 2018-2019 The MoKee Open Source Project
+Copyright (C) 2018-2019 The Android Open Source Project
 
-The Redmi Note 5 (codenamed _"whyred"_) are high-end mid-range smartphones from Xiaomi.
+The Redmi Note 5 China/Pro/AI/Global (codenamed _"whyred"_) are high-end mid-range smartphones from Xiaomi.
 
-Xiaomi Redmi Note 5 was announced and released in March 2018.
+Xiaomi Redmi Note 5 China was announced and released in March 2018.
 
 ## Device specifications
 
-| Device       | Xiaomi Redmi Note 5                         |
+| Device       | Xiaomi Redmi Note 5 China/Pro/AI/Global         |
 | -----------: | :---------------------------------------------- |
 | SoC          | Qualcomm SDM660 Snapdragon 636                  |
 | CPU          | 8x Qualcomm® Kryo™ 260 up to 1.8GHz             |
