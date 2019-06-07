@@ -1047,7 +1047,6 @@ vendor/lib/hw/keystore.sdm660.so
 vendor/lib64/hw/keystore.sdm660.so
 
 # Listen
-vendor/etc/audio.scd
 vendor/lib/hw/sound_trigger.primary.sdm660.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libgcs-calwrapper.so
@@ -1055,15 +1054,11 @@ vendor/lib/libgcs-ipc.so
 vendor/lib/libgcs-osal.so
 vendor/lib/libgcs.so
 vendor/lib/libsmwrapper.so
-vendor/lib/libnwa.so
-vendor/lib/libsse.so
 vendor/lib64/hw/sound_trigger.primary.sdm660.so
 vendor/lib64/libgcs-calwrapper.so
 vendor/lib64/libgcs-ipc.so
 vendor/lib64/libgcs-osal.so
 vendor/lib64/libgcs.so
-vendor/lib64/libnwa.so
-vendor/lib64/libsse.so
 
 # Media
 lib/libmmosal.so
@@ -1174,9 +1169,9 @@ vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
-# QMI - from MI 8 Lite platina-user 9 PKQ1.181007.001 9.3.28 release-keys
+# QMI
 etc/permissions/qti_permissions.xml
-etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
+etc/permissions/qti_libpermissions.xml
 vendor/bin/irsc_util
 vendor/bin/pd-mapper
 vendor/lib/libdiag.so
@@ -1226,7 +1221,7 @@ etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 framework/embmslibrary.jar
 framework/qcrilhook.jar
-framework/qti-telephony-common.jar|e529711775c31da38c9ecd1ab94b27ee15570dc4
+framework/qti-telephony-common.jar
 framework/QtiTelephonyServicelibrary.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/qti
@@ -1271,7 +1266,7 @@ vendor/radio/qcril_database/qcril.db
 
 # Radio - IMS
 -app/imssettings/imssettings.apk:vendor/app/imssettings/imssettings.apk
--priv-app/ims/ims.apk|8ce53a82c0b585083410fd2b7b26dee2c6eb54c4
+-priv-app/ims/ims.apk
 etc/permissions/com.qualcomm.qti.imscmservice.xml
 etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
 etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
@@ -1344,7 +1339,6 @@ vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/etc/thermal-engine.conf
 vendor/etc/thermal-engine-map.conf
 vendor/etc/thermal-engine-normal.conf
-vendor/etc/thermal-engine-sgame.conf
 vendor/bin/thermal-engine
 vendor/lib/libthermalfeature.so
 -vendor/lib/libthermalclient.so
